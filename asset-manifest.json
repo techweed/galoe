@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/galoe/static/css/main.b100e6da.chunk.css",
-    "main.js": "/galoe/static/js/main.113846b0.chunk.js",
-    "main.js.map": "/galoe/static/js/main.113846b0.chunk.js.map",
+    "main.css": "/galoe/static/css/main.34de6062.chunk.css",
+    "main.js": "/galoe/static/js/main.9c1a0f82.chunk.js",
+    "main.js.map": "/galoe/static/js/main.9c1a0f82.chunk.js.map",
     "runtime-main.js": "/galoe/static/js/runtime-main.b6c202a6.js",
     "runtime-main.js.map": "/galoe/static/js/runtime-main.b6c202a6.js.map",
-    "static/js/2.c9de2d9f.chunk.js": "/galoe/static/js/2.c9de2d9f.chunk.js",
-    "static/js/2.c9de2d9f.chunk.js.map": "/galoe/static/js/2.c9de2d9f.chunk.js.map",
+    "static/js/2.87790f05.chunk.js": "/galoe/static/js/2.87790f05.chunk.js",
+    "static/js/2.87790f05.chunk.js.map": "/galoe/static/js/2.87790f05.chunk.js.map",
     "index.html": "/galoe/index.html",
-    "precache-manifest.41a9b9ae7b1cd51a4a9d80b9d71495d6.js": "/galoe/precache-manifest.41a9b9ae7b1cd51a4a9d80b9d71495d6.js",
+    "precache-manifest.196c7f56bab74cd7522b051f82ba6427.js": "/galoe/precache-manifest.196c7f56bab74cd7522b051f82ba6427.js",
     "service-worker.js": "/galoe/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/galoe/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/galoe/static/media/logo.25bf045c.svg"
+    "static/css/main.34de6062.chunk.css.map": "/galoe/static/css/main.34de6062.chunk.css.map"
   }
 }
