@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a4da18fa6cc313e580efb32e5fdb9f0",
+    "revision": "19256e3b3b7b78aa0040f4c2c0aeb0b7",
     "url": "/galoe/index.html"
   },
   {
-    "revision": "5960ecb24b6053c2aed3",
+    "revision": "3f2a4e4ef1a004529381",
     "url": "/galoe/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/galoe/static/js/2.87790f05.chunk.js"
   },
   {
-    "revision": "5960ecb24b6053c2aed3",
-    "url": "/galoe/static/js/main.eb72ed82.chunk.js"
+    "revision": "3f2a4e4ef1a004529381",
+    "url": "/galoe/static/js/main.295ebec4.chunk.js"
   },
   {
     "revision": "1277a67e6d3a760aefac",
