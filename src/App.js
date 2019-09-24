@@ -8,7 +8,7 @@ class App extends Component {
   // Code is invoked after the component is mounted/inserted into the DOM tree.
   componentDidMount() {
     const url =
-      'https://en.wikipedia.org/w/api.php?action=opensearch&search=Seona+Dancing&format=json&origin=*'
+      'https://en.wikipedia.org/w/api.php?action=opensearch&search=love+action+drama&format=json&origin=*'
 
     fetch(url)
       .then(result => result.json())
