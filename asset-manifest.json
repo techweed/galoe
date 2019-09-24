@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/galoe/static/css/main.34de6062.chunk.css",
-    "main.js": "/galoe/static/js/main.e7f428de.chunk.js",
-    "main.js.map": "/galoe/static/js/main.e7f428de.chunk.js.map",
+    "main.js": "/galoe/static/js/main.5e38f8bf.chunk.js",
+    "main.js.map": "/galoe/static/js/main.5e38f8bf.chunk.js.map",
     "runtime-main.js": "/galoe/static/js/runtime-main.b6c202a6.js",
     "runtime-main.js.map": "/galoe/static/js/runtime-main.b6c202a6.js.map",
     "static/js/2.87790f05.chunk.js": "/galoe/static/js/2.87790f05.chunk.js",
     "static/js/2.87790f05.chunk.js.map": "/galoe/static/js/2.87790f05.chunk.js.map",
     "index.html": "/galoe/index.html",
-    "precache-manifest.573d07eae8ca225259eccdd6c34750ee.js": "/galoe/precache-manifest.573d07eae8ca225259eccdd6c34750ee.js",
+    "precache-manifest.91ab67965b758ed151c91cbe2fd84058.js": "/galoe/precache-manifest.91ab67965b758ed151c91cbe2fd84058.js",
     "service-worker.js": "/galoe/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/galoe/static/css/main.34de6062.chunk.css.map"
   }
