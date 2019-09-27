@@ -20,3 +20,38 @@
 .App-link {
   color: #09d3ac;
 }
+
+.main {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.particle-component {
+  position: "relative";
+  z-index: 1;
+}
+
+.counter-text {
+  text-align: center;
+  color: black;
+}
+
+.counter {
+  position: "relative";
+  flex-direction: column;
+  z-index: 2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
