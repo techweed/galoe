@@ -6,20 +6,22 @@ import moment from "moment";
 
 class App extends Component {
   state = {
-    date: moment().format("LTS"),
+    time: moment()
+      .utc()
+      .format("LTS"),
+    date: moment().format("LL"),
     country: "UTC",
     gmt: 0
   };
 
   updateTime = () => {
     this.setState({
-      date:
-        moment()
-          .utc()
-          .add(this.state.gmt, "hours")
-          .format("LTS") +
-        " " +
-        this.state.country
+      time: moment()
+        .utc()
+        .add(this.state.gmt, "hours")
+        .format("LTS"),
+      country: this.state.country,
+      date: moment().format("LL")
     });
   };
 
@@ -28,7 +30,15 @@ class App extends Component {
   }
 
   changeTime = (name, gmt) => {
-    this.setState({ gmt: gmt, country: name });
+    this.setState({
+      gmt: gmt,
+      country: name,
+      time: moment()
+        .utc()
+        .add(gmt, "hours")
+        .format("LTS"),
+      date: moment().format("LL")
+    });
   };
 
   render() {
@@ -40,7 +50,10 @@ class App extends Component {
           </div>
           <div className="counter">
             <Map changeTime={this.changeTime} />
-            <h1 className="counter-text">{this.state.date}</h1>
+            <h2 className="counter-text">
+              {this.state.time + " (" + this.state.country + ")"}
+            </h2>
+            <h5 className="counter-text">{this.state.date}</h5>
           </div>
         </div>
       </Fragment>
