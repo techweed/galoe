@@ -2,39 +2,36 @@ import React, { Fragment, Component } from "react";
 import "./App.css";
 import ParticleComponent from "./ParticleComponent";
 import Map from "./Map";
-import moment from 'moment';
+import moment from "moment";
 
 class App extends Component {
   state = {
-    // data: [],
-    country: '',
+    date: moment().format("LTS"),
+    country: "UTC",
     gmt: 0
   };
 
-  // Code is invoked after the component is mounted/inserted into the DOM tree.
-  // componentDidMount() {
-  //   const url =
-  //     "https://en.wikipedia.org/w/api.php?action=opensearch&search=vignesh&format=json&origin=*";
+  updateTime = () => {
+    this.setState({
+      date:
+        moment()
+          .utc()
+          .add(this.state.gmt, "hours")
+          .format("LTS") +
+        " " +
+        this.state.country
+    });
+  };
 
-  //   fetch(url)
-  //     .then(result => result.json())
-  //     .then(result => {
-  //       this.setState({
-  //         data: result
-  //       });
-  //     });
-  // }
+  componentDidMount() {
+    setInterval(this.updateTime, 1000);
+  }
 
   changeTime = (name, gmt) => {
     this.setState({ gmt: gmt, country: name });
   };
 
   render() {
-
-    // const result = data.map((entry, index) => {
-    //   return <li key={index}>{entry}</li>;
-    // });
-
     return (
       <Fragment>
         <div className="main">
@@ -42,8 +39,8 @@ class App extends Component {
             <ParticleComponent />
           </div>
           <div className="counter">
-            <Map changeTime={this.changeTime}/>
-            <h1 className="counter-text">{moment().utc().add(this.state.gmt, 'hours').format('LTS') + " " + this.state.country }</h1>
+            <Map changeTime={this.changeTime} />
+            <h1 className="counter-text">{this.state.date}</h1>
           </div>
         </div>
       </Fragment>

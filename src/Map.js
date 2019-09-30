@@ -21,13 +21,17 @@ class Map extends Component {
       center: [0,20],
       zoom: 1,
       cities: [
-        { name: "Zurich", coordinates: [8.5417,47.3769], gmt: 2 },
-        { name: "Singapore", coordinates: [103.8198,1.3521], gmt: 3 },
-        { name: "San Francisco", coordinates: [-122.4194,37.7749], gmt: 4 },
-        { name: "Sydney", coordinates: [151.2093,-33.8688], gmt: 5 },
-        { name: "Lagos", coordinates: [3.3792,6.5244], gmt: 6 },
+        { name: "Zurich", coordinates: [8.5417, 47.3769], gmt: 2 },
+        { name: "Singapore", coordinates: [103.8198, 1.3521], gmt: 8 },
+        { name: "San Francisco", coordinates: [-122.4194, 37.7749], gmt: -7 },
+        { name: "Sydney", coordinates: [151.2093, -33.8688], gmt: 10 },
+        { name: "Lagos", coordinates: [3.3792, 6.5244], gmt: 1 },
         { name: "India", coordinates: [75.7410984, 19.0825223], gmt: 5.5 },
-        { name: "Shanghai", coordinates: [121.4737,31.2304], gmt: 8 },
+        { name: "Shanghai", coordinates: [121.4737, 31.2304], gmt: 8 },
+        { name: "Tokyo", coordinates: [139.42, 35.41], gmt: 9 },
+        { name: "Moscow", coordinates: [37.37, 55.45], gmt: 3 },
+        { name: "Columbia", coordinates: [-76.861046, 39.203712], gmt: -4 },
+        { name: "Santiago", coordinates: [-70.64827, -33.45694], gmt: -3 },
       ]
   }
   handleCitySelection = (evt) => {
